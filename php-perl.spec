@@ -13,6 +13,7 @@ URL:		http://pecl.php.net/package/perl
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tar.bz2
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	perl-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 This extension embeds Perl Interpreter into PHP. It allows execute Perl files,
