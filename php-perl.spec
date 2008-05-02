@@ -6,14 +6,14 @@
 Summary:	This extension embeds Perl Interpreter into PHP
 Name:		php-%{modname}
 Version:	1.0.0
-Release:	%mkrel 14
+Release:	%mkrel 15
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/perl
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tar.bz2
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	perl-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This extension embeds Perl Interpreter into PHP. It allows execute Perl files,
