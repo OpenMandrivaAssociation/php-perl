@@ -11,6 +11,7 @@ Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/perl
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tar.bz2
+Patch0:		perl-1.0.0-php530.diff
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	perl-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -23,6 +24,8 @@ evaluate Perl code, access Perl variables and instantiate Perl objects.
 
 %setup -q -n %{modname}-%{version}
 [ "../package*.xml" != "/" ] && mv ../package*.xml .
+
+%patch0 -p0
 
 %build
 %serverbuild
