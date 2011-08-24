@@ -6,7 +6,7 @@
 Summary:	This extension embeds Perl Interpreter into PHP
 Name:		php-%{modname}
 Version:	1.0.0
-Release:	%mkrel 33
+Release:	%mkrel 34
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/perl
