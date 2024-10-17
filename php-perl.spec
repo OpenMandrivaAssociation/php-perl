@@ -9,7 +9,7 @@ Version:	1.0.0
 Release:	%mkrel 36
 Group:		Development/PHP
 License:	PHP License
-URL:		http://pecl.php.net/package/perl
+URL:		https://pecl.php.net/package/perl
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tar.bz2
 Patch0:		perl-1.0.0-php530.diff
 BuildRequires:	php-devel >= 3:5.2.0
