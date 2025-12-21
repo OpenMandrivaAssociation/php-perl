@@ -12,6 +12,11 @@ License:	PHP License
 URL:		https://pecl.php.net/package/perl
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tar.bz2
 Patch0:		perl-1.0.0-php530.diff
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	perl-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
